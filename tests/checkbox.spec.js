@@ -40,7 +40,7 @@ await page.waitForTimeout(5000)
 
 
 
-test.only('checkbox example3 automatically taking locator as array', async ({ page }) => {
+test('checkbox example3 automatically taking locator as array', async ({ page }) => {
     
     await page.goto("https://rahulshettyacademy.com/AutomationPractice/")
 
@@ -53,3 +53,4 @@ for (let checkbox of checkboxes) {
     await checkbox.check();
   }
 })
+
